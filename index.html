@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-oswego-navy text-zinc-300 antialiased selection:bg-oswego-cyan selection:text-oswego-navy">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KEMIv5.15 | OswegoLabs</title>
+    <meta name="description" content="A protocol built for the next 30 years of secure communication." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "lucide-react": "https://esm.sh/lucide-react@0.263.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['"IBM Plex Mono"', 'monospace'],
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              oswego: {
+                // Park Theme
+                forest: '#2F6D4F',
+                evergreen: '#1E4D38',
+                moss: '#7FA37E',
+                copper: '#9A6232',
+                
+                // Labs Theme
+                navy: '#0E1A2E',
+                blueprint: '#2D6B9F',
+                cyan: '#3CC9DD',
+                mist: '#DDE2E8',
+                
+                // Accents
+                gold: '#E8B64A',
+                aurora: '#7A5BEA',
+                
+                // Neutrals
+                onyx: '#111213',
+                graphite: '#44474F',
+                paper: '#F7F9FB'
+              }
+            },
+            backgroundImage: {
+              'lattice-radial': 'radial-gradient(circle at center, #172D4E 0%, #0E1A2E 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Enforcing sharp edges globally just in case */
+      * { border-radius: 0 !important; }
+      
+      /* Scrollbar styling for that technical feel */
+      ::-webkit-scrollbar {
+        width: 12px;
+        background: #0E1A2E;
+        border-left: 1px solid #1E4D38;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1E4D38;
+        border: 1px solid #0E1A2E;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2F6D4F;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

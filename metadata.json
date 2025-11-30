@@ -1,0 +1,7 @@
+{
+  "name": "KEMIv5.15 | OswegoLabs",
+  "description": "Post-Quantum Encrypted Transport Protocol Landing Page",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
